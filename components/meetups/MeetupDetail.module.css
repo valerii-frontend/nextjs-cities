@@ -1,0 +1,23 @@
+.detail {
+	text-align: center;
+}
+.detail p {
+	text-align: left;
+}
+.detail address {
+	opacity: 0.5;
+}
+.detail h1 {
+	color: white;
+	background: #094ee2;
+	padding: 1rem;
+	border-bottom: 5px solid black;
+}
+.detail p::first-letter {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #094ee2;
+}
+.detail img {
+	width: 100%;
+}

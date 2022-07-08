@@ -1,0 +1,54 @@
+.item {
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.item:hover {
+	transform: scale(1.02);
+	transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+	border-radius: 6px;
+}
+
+.image {
+	width: 100%;
+	height: 20rem;
+	overflow: hidden;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+
+.image img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.content {
+	text-align: center;
+	padding: 1rem;
+}
+
+.content h3 {
+	font-size: 1.25rem;
+	color: #2c292b;
+}
+
+.actions {
+	padding: 1.5rem;
+	text-align: center;
+}
+
+.actions button {
+	font: inherit;
+	cursor: pointer;
+	color: #094ee2;
+	border: 1px solid #094ee2;
+	background-color: transparent;
+	padding: 0.5rem 1.5rem;
+	border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+	background-color: #b8eafc;
+}
