@@ -8,3 +8,4 @@ Just a practice project with form to add some information to the database and fe
 2. Next JS
 3. MongoDB
 
+[Live preview](https://nextjs-cities.vercel.app/)
